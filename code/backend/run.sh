@@ -1,0 +1,1 @@
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python python3 -uB main.py

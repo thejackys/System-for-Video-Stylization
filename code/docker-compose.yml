@@ -1,0 +1,12 @@
+version: "2.3"
+services:
+    vfx3:
+        build: ./dockerfile
+        runtime: nvidia
+        volumes:
+            - "./backend:/root/backend"
+        ports:
+            - "12113:5000"
+        restart: always
+        command: bash -c "cd /root/backend && sh run.sh"
+        privileged: true
