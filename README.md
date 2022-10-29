@@ -1,9 +1,9 @@
 # A system for video stylzing
 
 # Team 12
-- B06607057 蘇鈺崴
-- R10944012 陳昱暢
-- R10944014 蔡柏毅
+- B06607057 
+- R10944012 
+- R10944014 
 
 # Test Platform
 - Ubuntu 18.04
@@ -14,15 +14,16 @@
 # Steps to use this system
 1. Install `docker` and `docker-compose`
 2. Install Nvidia Drivers and Setup Cuda Environment
->Note: if no cuda available, or not supported, please comment out the following line in the `docker-compose.yml`
+> Note: if no cuda available, or not supported, please comment out the following line in the `docker-compose.yml`
 <br>
 `runtime: nvidia`
 3. cd to `code` directory and extract backend.zip
-```bash
+```
+bash
 cd code
 unzip backend.zip
 ```
->Note: Source code for frontend is available at `frontend.zip`, but the builded version is included in backend.
+> Note: Source code for frontend is available at `frontend.zip`, but the built version is included in backend.
 4. Put the Input Video in the `backend/static/videos` folder and Rename the Video to `video.mp4`
 >Note: We assume the video resolution is smaller or equals to 1280x720, and have fps 30. In addition, the ebsynth algorithm is pretty slow, a 4 seconds video can take about 30 minutes to compute. One can use the following command to change the resolution, fps and cut the video into desired length:
 <br>
