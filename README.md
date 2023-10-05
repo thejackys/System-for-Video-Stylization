@@ -1,7 +1,7 @@
 # A system for video stylzing
-![cat.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif) "Logo Title Text 1")
-![cat.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/waterfall_wave_1.gif) "Logo Title Text 1")
-![cat.gif]((https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif) "Logo Title Text 1")
+![cat.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif)
+![waterfall.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/waterfall_wave_1.gif)
+![dog.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/doggg.gif)
 
 
 # Team 12
