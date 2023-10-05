@@ -1,4 +1,5 @@
 # A system for video stylzing
+<img src="https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif" alt="cat" width="200"/>
 ![cat.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif)
 ![waterfall.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/waterfall_wave_1.gif)
 ![dog.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/doggg.gif)
