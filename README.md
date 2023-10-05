@@ -25,7 +25,7 @@ unzip backend.zip
 ```
 > Note: Source code for frontend is available at `frontend.zip`, but the built version is included in backend.
 4. Put the Input Video in the `backend/static/videos` folder and Rename the Video to `video.mp4`
->Note: We assume the video resolution is smaller or equals to 1280x720, and have fps 30. In addition, the ebsynth algorithm is pretty slow, a 4 seconds video can take about 30 minutes to compute. One can use the following command to change the resolution, fps and cut the video into desired length:
+>Note: We assume the video resolution is smaller or equals to 1280x720, and has fps 30. In addition, the ebsynth algorithm is pretty slow, a 4-second video can take about 30 minutes to compute. One can use the following command to change the resolution, fps and cut the video into the desired length:
 <br>
 `ffmpeg -i <input> -ss <start_timestamp> -to <end_timestamp> -vf "fps=30, scale=-1:720" video.mp4`
 4. Run `docker-compose up`
@@ -36,6 +36,7 @@ unzip backend.zip
 
 # Backup link for demo video
 [Demo Video](https://youtu.be/jyE-B--R5ac)
+# ![alt text](cat.gif "Logo Title Text 1")
 
 # Credits
 This System is based on the following libraries and pretrained model:
