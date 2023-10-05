@@ -1,4 +1,8 @@
 # A system for video stylzing
+![cat.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif) "Logo Title Text 1")
+![cat.gif](https://github.com/thejackys/System-for-Video-Stylization/blob/main/waterfall_wave_1.gif) "Logo Title Text 1")
+![cat.gif]((https://github.com/thejackys/System-for-Video-Stylization/blob/main/cat.gif) "Logo Title Text 1")
+
 
 # Team 12
 - B06607057 
@@ -36,7 +40,7 @@ unzip backend.zip
 
 # Backup link for demo video
 [Demo Video](https://youtu.be/jyE-B--R5ac)
-# ![alt text](cat.gif "Logo Title Text 1")
+
 
 # Credits
 This System is based on the following libraries and pretrained model:
